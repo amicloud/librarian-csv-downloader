@@ -1,0 +1,36 @@
+{
+  "name": "librian-node",
+  "version": "0.0.1",
+  "description": "Export your Google Play Music Library to other platforms",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amicloud/librarian-node.git"
+  },
+  "keywords": [
+    "google",
+    "play",
+    "music",
+    "library",
+    "spotify",
+    "googleplay",
+    "googleplaymusic",
+    "playmusic",
+    "gpm",
+    "gpmusic"
+  ],
+  "author": "Amy Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amicloud/librarian-node/issues"
+  },
+  "homepage": "https://github.com/amicloud/librarian-node#readme",
+  "dependencies": {
+    "playmusic": "^2.3.0",
+    "prompt": "^1.0.0",
+    "spotify-web-api-js": "^1.1.1"
+  }
+}
