@@ -1,11 +1,8 @@
 {
-  "name": "librian-node",
+  "name": "gpm-librarian",
   "version": "0.0.1",
-  "description": "Export your Google Play Music Library to other platforms",
-  "main": "main.js",
-  "scripts": {
-    "test": "mocha"
-  },
+  "description": "Export your Google Play Music Library to .csv",
+  "main": "gpm-librarian.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amicloud/librarian-node.git"
@@ -29,8 +26,13 @@
   },
   "homepage": "https://github.com/amicloud/librarian-node#readme",
   "dependencies": {
+    "csv": "^5.0.0",
+    "json2csv": "^4.3.2",
+    "node": "^11.4.0",
     "playmusic": "^2.3.0",
-    "prompt": "^1.0.0",
-    "spotify-web-api-js": "^1.1.1"
+    "prompts": "^2.0.0"
+  },
+  "scripts": {
+    "build": "sudo pkg gpm-librarian.js"
   }
 }
